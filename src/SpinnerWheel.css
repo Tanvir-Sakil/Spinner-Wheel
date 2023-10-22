@@ -1,0 +1,60 @@
+.segmented-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .spinner {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .spinner.spinning {
+    animation: spin 2s linear;
+  }
+  .section-2
+  {
+    margin-left: 70px;
+  }
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .segment {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  input {
+    margin: 10px;
+  }
+  
+  button {
+    color: black;
+    margin: 10px;
+  }
+  
+  .winner {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .button-style
+  {
+    background-color: antiquewhite;
+  }
+  
